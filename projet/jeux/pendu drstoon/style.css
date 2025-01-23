@@ -178,7 +178,7 @@ body {
 	justify-content: center;
 	align-items: center;
 
-	background-image:  url("/projet/assets/images/foretequipre.jpg");
+	background-image:  url("/assets/images/foretequipre.jpg");
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -403,7 +403,7 @@ h2 {
       align-items: center; /* Centre les cartes verticalement */
       overflow-y: auto; /* Ajoute une barre de défilement si nécessaire */
       /* background-color: aqua; */
-      background-image: linear-gradient( #110701,hsla(128, 94%, 20%, 0.747)), url("/projet/assets/images/senkurouge.jpg");
+      background-image: linear-gradient( #110701,hsla(128, 94%, 20%, 0.747)), url("/assets/images/senkurouge.jpg");
   }
   .footer-col{
      width: 25%;

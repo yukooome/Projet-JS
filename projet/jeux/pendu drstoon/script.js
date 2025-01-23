@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const endImage = document.getElementById('end-image');
     const endText = document.getElementById('end-text'); 
 
-    const correctImage = "/projet/assets/images/giflove.gif";  
-    const incorrectImage = "/projet/assets/images/senkuenerver.gif"; 
-    const loseImage = "/projet/assets/images/senkudecu.webp";  
+    const correctImage = "/assets/images/giflove.gif";  
+    const incorrectImage = "/assets/images/senkuenerver.gif"; 
+    const loseImage = "/assets/images/senkudecu.webp";  
 
     let remainingTry = 9;
     let gamesPlayed = localStorage.getItem('gamesPlayed') || 0;
@@ -131,29 +131,29 @@ document.addEventListener("DOMContentLoaded", function () {
         // Retourne le chemin de l'image en fonction du mot trouvé
         switch (word) {
             case "SENKU":
-                return "/projet/assets/images/senkureponseok.webp";
+                return "/assets/images/senkureponseok.webp";
             case "TAIJU":
-                return "/projet/assets/images/taijureponseok.webp";
+                return "/assets/images/taijureponseok.webp";
             case "YUZURIA":
-                return "/projet/assets/images/Yuzurihareponseok.webp";
+                return "/assets/images/Yuzurihareponseok.webp";
             case "TSUKASA":
-                return "/projet/assets/images/Tsukasareponseok.webp";
+                return "/assets/images/Tsukasareponseok.webp";
             case "CHROME":
-                return "/projet/assets/images/Chromereponseok.webp";
+                return "/assets/images/Chromereponseok.webp";
             case "KOHAKU":
-                return "/projet/assets/images/kohakureponseok.webp";
+                return "/assets/images/kohakureponseok.webp";
             case "GEN":
-                return "/projet/assets/images/genreponseok.jpeg";
+                return "/assets/images/genreponseok.jpeg";
             case "RURI":
-                return "/projet/assets/images/Rurireponseok.jpeg";
+                return "/assets/images/Rurireponseok.jpeg";
             case "KINRO":
-                return "/projet/assets/images/Kinroreponseok.webp";
+                return "/assets/images/Kinroreponseok.webp";
             case "GINRO":
-                return "/projet/assets/images/Ginroreponseok.webp";
+                return "/assets/images/Ginroreponseok.webp";
             case "SUIKA":
-                return "/projet/assets/images/Suikareponseok.webp";
+                return "/assets/images/Suikareponseok.webp";
             default:
-                return "/projet/assets/images/default_image.webp"; // Si aucun mot ne correspond, retourne une image par défaut
+                return "/assets/images/default_image.webp"; // Si aucun mot ne correspond, retourne une image par défaut
         }
     }
 });
