@@ -250,7 +250,7 @@ nav ul li img {
   .test {
     width: 100%;
     /* background-color: #000; */
-    background-image: url(/assets/images/fdecran6.avif);
+    background-image: url("/projet/assets/images/fdecran6.avif");
     
     display: flex;
     flex-direction: column;
