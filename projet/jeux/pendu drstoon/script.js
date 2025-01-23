@@ -12,9 +12,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const endImage = document.getElementById('end-image');
     const endText = document.getElementById('end-text'); 
 
-    const correctImage = "/assets/images/giflove.gif";  
-    const incorrectImage = "/assets/images/senkuenerver.gif"; 
-    const loseImage = "/assets/images/senkudecu.webp";  
+    const correctImage = "/projet/assets/images/giflove.gif";  
+    const incorrectImage = "/projet/assets/images/senkuenerver.gif"; 
+    const loseImage = "/projet/assets/images/senkudecu.webp";  
 
     let remainingTry = 9;
     let gamesPlayed = localStorage.getItem('gamesPlayed') || 0;
@@ -131,29 +131,29 @@ document.addEventListener("DOMContentLoaded", function () {
         // Retourne le chemin de l'image en fonction du mot trouvé
         switch (word) {
             case "SENKU":
-                return "/zdrstone_versionok/images/senkureponseok.webp";
+                return "/projet/assets/images/senkureponseok.webp";
             case "TAIJU":
-                return "/zdrstone_versionok/images/taijureponseok.webp";
+                return "/projet/assets/images/taijureponseok.webp";
             case "YUZURIA":
-                return "/zdrstone_versionok/images/Yuzurihareponseok.webp";
+                return "/projet/assets/images/Yuzurihareponseok.webp";
             case "TSUKASA":
-                return "/zdrstone_versionok/images/Tsukasareponseok.webp";
+                return "/projet/assets/images/Tsukasareponseok.webp";
             case "CHROME":
-                return "/zdrstone_versionok/images/Chromereponseok.webp";
+                return "/projet/assets/images/Chromereponseok.webp";
             case "KOHAKU":
-                return "/zdrstone_versionok/images/kohakureponseok.webp";
+                return "/projet/assets/images/kohakureponseok.webp";
             case "GEN":
-                return "/zdrstone_versionok/images/genreponseok.jpeg";
+                return "/projet/assets/images/genreponseok.jpeg";
             case "RURI":
-                return "/zdrstone_versionok/images/Rurireponseok.jpeg";
+                return "/projet/assets/images/Rurireponseok.jpeg";
             case "KINRO":
-                return "/zdrstone_versionok/images/Kinroreponseok.webp";
+                return "/projet/assets/images/Kinroreponseok.webp";
             case "GINRO":
-                return "/zdrstone_versionok/images/Ginroreponseok.webp";
+                return "/projet/assets/images/Ginroreponseok.webp";
             case "SUIKA":
-                return "/zdrstone_versionok/images/Suikareponseok.webp";
+                return "/projet/assets/images/Suikareponseok.webp";
             default:
-                return "/zdrstone_versionok/images/default_image.webp"; // Si aucun mot ne correspond, retourne une image par défaut
+                return "/projet/assets/images/default_image.webp"; // Si aucun mot ne correspond, retourne une image par défaut
         }
     }
 });
